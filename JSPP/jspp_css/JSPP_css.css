@@ -1,0 +1,51 @@
+.jspp_h {
+    text-align: center;
+    color: red;
+}
+
+.jssp_button{
+	-moz-box-shadow: 3px 4px 0px 0px #1564ad;
+	-webkit-box-shadow: 3px 4px 0px 0px #1564ad;
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background-color:#79bbff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.jspp_button:hover {
+	background-color:#378de5;
+}
+.jspp_button:active {
+	position:relative;
+	top:1px;
+}
+
+/* unvisited link */
+.jspp_link:link {
+    color: #2E2EFE;
+}
+
+/* visited link */
+.jspp_link:visited {
+    color: #FF0000;
+}
+
+/* mouse over link */
+.jspp_link:hover {
+    color: #00FF00;
+}
+
+/* selected link */
+.jspp_link:active {
+    color: #2E2EFE;
+}
