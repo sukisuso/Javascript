@@ -12,8 +12,8 @@ http.createServer(function (request, response) {
     if(pathname == "/") {
         html = fs.readFileSync("index.html", "utf8");
         response.write(html);
-    } else if (pathname == "/JSPP.js") {
-        script = fs.readFileSync("JSPP.js", "utf8");
+    } else if (pathname == "jspp/JSPP.js") {
+        script = fs.readFileSync("jspp/JSPP.js", "utf8");
         response.write(script);
     }
 

@@ -1,0 +1,237 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"w",
+				"write"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"wri",
+				"writeHead"
+			],
+			[
+				"l",
+				"log"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Documentos/GitHub/Javascript/JSPP/DEVELOP/js/o.js",
+		"/D/Documentos/GitHub/Javascript/JSPP/DEVELOP/js/o2.js",
+		"/D/Documentos/GitHub/Javascript/JSPP/DEVELOP/views/secuel.html",
+		"/D/Documentos/GitHub/Javascript/JSPP/DEVELOP/jspp/JSPP.js",
+		"/D/Documentos/GitHub/Javascript/JSPP/DEVELOP/jspp/jspp_util/jspp_util.js",
+		"/D/Documentos/GitHub/Javascript/JSPP/DEVELOP/index.html",
+		"/D/Documentos/GitHub/Javascript/JSPP/DEVELOP/jspp/jspp_css/JSPP_css.css",
+		"/D/Documentos/GitHub/Javascript/JSPP/index.html",
+		"/D/Documentos/GitHub/Javascript/JSPP/jspp/JSPP.js",
+		"/D/Documentos/GitHub/Javascript/extjs_server/app/app.js",
+		"/D/Documentos/GitHub/Javascript/JSPP/js/o.js",
+		"/D/Documentos/GitHub/Javascript/extjs_server/app/view/LosSimpsons.js",
+		"/D/Documentos/GitHub/Javascript/extjs_server/app/view/ViewPort.js",
+		"/D/Documentos/GitHub/Javascript/JSPP/views/o2.js",
+		"/D/Documentos/GitHub/Javascript/JSPP/views/secuel.html",
+		"/D/Documentos/GitHub/Javascript/JSPP/o2.js",
+		"/D/Documentos/GitHub/Javascript/JSPP/html/secuel.html",
+		"/D/Documentos/GitHub/Javascript/JSPP/html/o.js",
+		"/C/Users/Jesus/AppData/Local/Temp/Rar$DRa0.449/jesus/app/report/public/js/functions.js",
+		"/C/Users/Jesus/AppData/Local/Temp/Rar$DRa0.449/jesus/app/report/public/js/script.js",
+		"/C/Users/Jesus/AppData/Local/Temp/Rar$DRa0.898/jesus/app/ide/public/js/script.js",
+		"/C/Users/Jesus/AppData/Local/Temp/Rar$DRa0.515/jesus/app/ide/public/js/functions.js",
+		"/C/Users/Jesus/AppData/Local/Temp/Rar$DRa0.264/jesus/app/ide/public/js/script.js",
+		"/C/Users/Jesus/AppData/Local/Temp/Rar$DRa0.370/jesus/app/ide/public/js/functions.js",
+		"/C/Users/Jesus/AppData/Local/Temp/Rar$DRa0.510/jesus/app/ide/public/js/script.js",
+		"/C/Users/Jesus/AppData/Local/Temp/Rar$DRa0.510/jesus/app/ide/public/js/functions.js",
+		"/C/Users/Jesus/AppData/Local/Temp/Rar$DRa0.510/jesus/app/ide/public/js/md5.js",
+		"/D/Documentos/Dropbox/Works/cucu/ejemplo_AJAX/script.js",
+		"/D/Documentos/GitHub/Javascript/JSPP/jspp_css/JSPP_css.css",
+		"/D/Documentos/GitHub/Javascript/JSPP/js/css/JSPP_css.css",
+		"/D/Documentos/GitHub/Javascript/JSPP/js/JSPP.js",
+		"/D/Documentos/GitHub/Javascript/JSPP/node_server.js",
+		"/D/Documentos/GitHub/Javascript/node/gen/server.js",
+		"/D/Documentos/GitHub/Javascript/node/gen_handler/server.js",
+		"/D/Documentos/GitHub/Javascript/node/gen_handler/router.js",
+		"/D/Documentos/GitHub/Javascript/node/gen_handler/requestHandlers.js",
+		"/D/Documentos/GitHub/Javascript/node/gen_handler/APP.js",
+		"/C/Users/Jesus/Desktop/node/gen_handler/requestHandlers.js",
+		"/C/Users/Jesus/Desktop/node/gen_handler/router.js",
+		"/C/Users/Jesus/Desktop/node/gen_handler/server.js",
+		"/C/Users/Jesus/Desktop/node/gen_handler/APP.js",
+		"/C/Users/Jesus/Desktop/node/gen/router.js",
+		"/C/Users/Jesus/Desktop/node/gen/APP.js",
+		"/C/Users/Jesus/Desktop/node/gen/server.js",
+		"/C/Users/Jesus/Desktop/idinner/index.HTML",
+		"/C/Users/Jesus/Desktop/xx.json",
+		"/C/Users/Jesus/Desktop/jesus/app/report/public/js/functions.js",
+		"/C/Users/Jesus/Desktop/jesus/app/report/views/index/index.php",
+		"/C/Users/Jesus/Desktop/jesus/app/report/public/index.php",
+		"/C/Users/Jesus/Desktop/jesus/app/report/public/js/script.js",
+		"/E/Descargas/Download/practica 1 ADM, Jesus Juan Aguilar y Fernando Hernando Villanueva/mejoradaAdicional/src/com/example/basica/GetActivity.java",
+		"/E/Descargas/Download/practica 1 ADM, Jesus Juan Aguilar y Fernando Hernando Villanueva/mejoradaAdicional/src/com/example/basica/FileHelper.java",
+		"/E/Descargas/Download/practica 1 ADM, Jesus Juan Aguilar y Fernando Hernando Villanueva/mejoradaAdicional/src/com/example/basica/MainActivity.java",
+		"/E/Descargas/Download/practica 1 ADM, Jesus Juan Aguilar y Fernando Hernando Villanueva/mejoradaAdicional/src/com/example/basica/ListaMeteo.java",
+		"/E/Descargas/Download/seriesly/series/Ataque a los titanes (Shingeki no Kyojin)/info.json",
+		"/E/Descargas/Download/seriesly/series/Ataque a los titanes (Shingeki no Kyojin)/se1e1 - Para ustedes, dos mil años después. La Caída de Shiganshina (Parte 1)/allmyvideos_Castellano__Alta_480p.json",
+		"/E/Descargas/Download/Sin confirmar 895040.crdownload",
+		"/E/Descargas/Download/L2_2_practica_8/L2_2_practica_8/floyd2.cpp",
+		"/E/Descargas/Download/L2_2_practica_8/L2_2_practica_8/grafo.h",
+		"/E/Descargas/Download/L2_2_practica_8/L2_2_practica_8/floyd.cpp",
+		"/E/Descargas/Download/L2_2_practica_8/L2_2_practica_8/makefile"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"WEB"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
