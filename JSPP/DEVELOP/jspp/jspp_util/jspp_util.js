@@ -52,7 +52,6 @@ JSPP.AJAX = function(ajax) {
 function updateElement(target) {
 	if (http_request.readyState == 4) {
 		if (http_request.status == 200) {
-			console.log('Element');
 			document.getElementById(target).innerHTML = http_request.responseText;
 		}
 	}
@@ -73,5 +72,10 @@ function updateJSPP(target) {
 	}
 }
 
-/*Funcion para acceder a los parametros enviados por una peticion GET/POST*/
-JSPP.getParamether = function (){};
+/*Funcion para acceder a los parametros enviados por una peticion GET*/
+JSPP.getParameterByName = function (name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+};
