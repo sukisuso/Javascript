@@ -1,0 +1,40 @@
+[
+    {
+    	"colums":["Nombre","Telefono","Email"]
+    },
+    {
+	    "nombre" : "Javier",
+	    "Telefono": 963468221,
+	    "email": "javivi@hotmail.com"
+	},
+	{
+	    "nombre" : "Pedro",
+	    "Telefono": 664633312,
+	    "email": "ppedro@gmail.com"
+	},
+	{
+	    "nombre" : "Juanjo",
+	    "Telefono": 663842956,
+	    "email": "juanjo@ejemplo.com"
+	},
+	{
+	    "nombre" : "Laura",
+	    "Telefono": 963856179,
+	    "email": "lau_burbu@capgemini.es"
+	},
+	{
+	    "nombre" : "Maria",
+	    "Telefono": 960300258,
+	    "email": "mm2ria@yahoo.es"
+	},
+	{
+	    "nombre" : "Jesus",
+	    "Telefono": 963357159,
+	    "email": "suso_mdo@hotmail.com"
+	},
+	{
+	    "nombre" : "Oscar",
+	    "Telefono": 968412793,
+	    "email": "oscargoustu@gmail.com"
+	}
+]
