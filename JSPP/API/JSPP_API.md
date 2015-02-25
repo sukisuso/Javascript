@@ -15,10 +15,9 @@
 --0.1.2 !! Ejemplo formulario.
 
 * jspp_template.js
-
-
-
-* jspp_DB.js // http://pouchdb.com/
+* jasper Reports
+* generate PDF.
+* Bean DB 
 
 --0.1.3 !! Ejemplo Crud.
 
@@ -27,5 +26,4 @@
 
 
 -- 0.2
-* jspp_console
 
