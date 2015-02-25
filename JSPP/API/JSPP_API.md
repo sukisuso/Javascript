@@ -1,10 +1,16 @@
-### JSPP DOCUMENTATION API.
+JSPP DOCUMENTATION API.
+============
 
-*** JSPP Class
+### JSPP Class
+*Operaciones basicas de la libreria JSPP. Incluye todas las funciones para crear nuevos elementos HTML*
 
-*** JSPP Utils
+### JSPP Utils
 
-*** JSPP Validate
+### JSPP Validate
+
+### BIN INCLUDES
+
+1.** Bean DB. **
 
 
 
