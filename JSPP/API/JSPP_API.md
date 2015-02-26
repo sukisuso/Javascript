@@ -8,9 +8,9 @@ JSPP DOCUMENTATION API.
 
 ### JSPP Validate
 
-### BIN INCLUDES
-
-1.** Bean DB. **
+## JSPP INCLUYE Y FACILITA
+1. Bean DB v1.0. 
+2. excellentexport
 
 
 
@@ -22,8 +22,7 @@ JSPP DOCUMENTATION API.
 
 * jspp_template.js
 * jasper Reports
-* generate PDF.
-* Bean DB 
+* DIV to PDF
 
 --0.1.3 !! Ejemplo Crud.
 

@@ -110,3 +110,18 @@ function isBase64(num){
 function isURL(num){
     return urlRegex.test(num);
 }
+
+function notNull(object){
+
+    if(object){
+        return true;
+    }
+    return false;
+}
+
+function yesNull(object){
+     if(!object){
+        return true;
+    }
+    return false;
+}

@@ -23,9 +23,10 @@ JSPP.newButton = function (b){
 	*     into: "node_id",
 	*     classname: "class css",
 	*     func: function(){alert("Hi!")};
+	*	  replace:"yes"(default NULL)
 	*  }
 	**/
-
+	var into = document.getElementById(b.into);
 	var boton = document.createElement("button");
 	boton.setAttribute("id", b.id);
 	boton.type = b.type; 
@@ -33,7 +34,7 @@ JSPP.newButton = function (b){
 	boton.innerHTML= b.text;
 	boton.className= b.classname;
 	boton.onclick = b.func;
-	document.body.appendChild(boton);
+	into.appendChild(boton);
 };
 
 JSPP.newLink = function (a){
@@ -48,9 +49,11 @@ JSPP.newLink = function (a){
 	*     link: "http://www.javascriptpp.com",
 	*     params: "url=jdaj",
 	*     onclick: function
+	*	  replace:"yes"(default NULL)
+	*	  download:"filename"
 	*  }
 	**/
-
+	var into = document.getElementById(a.into);
 	var enlace = document.createElement("a");
 	enlace.setAttribute("id", a.id);
 	enlace.type = a.type; 
@@ -58,30 +61,64 @@ JSPP.newLink = function (a){
 	enlace.innerHTML= a.text;
 	enlace.className= a.classname;
 	enlace.setAttribute("href", a.link);
-	enlace.onclick = a.onclick;
-	document.body.appendChild(enlace);
+	into.appendChild(enlace);
 };
 //New Element Div.
 JSPP.newDiv = function (d){
 	/**
 	* d = {
 	*     id: "new_id_h",
+	*	  into: "div_for"
+	*	  replace:"yes"(default NULL)
 	*  }
 	**/
+	var into = document.getElementById(d.into);
 	var enlace = document.createElement("div");
 	enlace.setAttribute("id", d.id);
-	document.body.appendChild(enlace);
+	into.appendChild(enlace);
 };
 
 //New Form
-JSPP.newForm = function(f){
+JSPP.newForm = function(f){};
 
+JSPP.newTable = function (t){
 
+	/**
+	* t = {
+	*     id: "new_id_h",
+	*     into: "node_id",
+	*     classname: "class css"
+	*	  replace:"yes" (default null)
+	*  }
+	**/
+	var row,cell,object;
 
+ 	var table = document.createElement('table');
+ 	var tableBody = document.createElement('tbody');
 
+ 	var data = t.array;
+ 	for(var i = 0, length1 = data.length; i < length1; i++){
+ 		row = document.createElement('tr');
+ 		object = data[i];
+ 		for(x in object){
+     	 	cell = document.createElement('td');
+ 	    	cell.appendChild(document.createTextNode(object[x]));
+ 			row.appendChild(cell);
+ 		}
+ 		tableBody.appendChild(row);
+ 	}
+	
+	table.appendChild(tableBody);
+	table.setAttribute("id", t.id);
+	table.className= t.classname;
+
+	if(t.replace){
+		document.getElementById(t.into).innerHTML = "";
+		document.getElementById(t.into).appendChild(table);
+	}else{
+		document.getElementById(t.into).appendChild(table);
+	}
 };
-
-JSPP.newTable = function (t){};
 JSPP.newIframe = function (i){};
 JSPP.newParagraph = function(p){};
 JSPP.newMenu = function(m){};
@@ -96,6 +133,7 @@ JSPP.newH = function(h){
 	*     into: "node_id",
 	*     classname: "class css",
 	*     gettext: true(default false)
+	*	  replace:"yes"(default NULL)
 	*  }
 	**/
 	var into = document.getElementById(h.into);
@@ -107,10 +145,33 @@ JSPP.newH = function(h){
 	p.appendChild(contenido);
 
 	if(!h.gettext){
-		into.appendChild(p);
+		if(h.replace){
+			document.getElementById(p.into).innerHTML = "";
+			document.getElementById(p.into).appendChild(table);
+		}else{
+			document.getElementById(h.into).appendChild(p);
+	}
 	}else{
 		return p;
 	}
 }; 
 
+
+JSPP.newEXCEL_TABLELink = function (fnombre, tabla, into2){
+	/**
+	* fnombre = nombre del fichero
+	* tabla = id de la tabla
+	**/
+	var into = document.getElementById(into2);
+	var enlace = document.createElement("a");
+	
+ 
+ 	enlace.setAttribute("donwload", "fnombre");
+ 	enlace.setAttribute("id", "excelLINK_"+tabla);
+	enlace.innerHTML= "Descargar to Excel de "+ tabla;
+	enlace.setAttribute("href", "#");
+	enlace.setAttribute("onclick", "return ExcellentExport.csv(this, tabla, ';');");
+	
+	into.appendChild(enlace);
+};
 // 0.2 -> JSPP.newConsole = function(){};
