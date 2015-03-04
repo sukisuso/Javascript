@@ -15,27 +15,26 @@ JSPP DOCUMENTATION API.
 
 
 #### JSPP INCLUYE Y FACILITA
-1. Bean DB v1.0. 
+1. Bean DB v1.1.2. 
 2. excellentexport
 
 
 
 //Diario de Desarrollo.
 
-* finish jspp_class.js
-
---0.1.2 !! Ejemplo formulario.
-
-* LOADING GIFT
 * jspp_template.js
+
+
+
+--0.1.3 !! Ejemplo FORM 2+2 getparamethers
+* finish jspp_class.js
+* LOADING GIFT
 * jasper Reports
-* DIV to PDF
-
---0.1.3 !! Ejemplo Crud.
-
+--0.1.3 !! Ejemplo Templates
 
 
 
 
 -- 0.2
 
+* DIV to PDF

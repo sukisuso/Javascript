@@ -79,3 +79,15 @@ JSPP.getParameterByName = function (name) {
         results = regex.exec(location.search);
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 };
+
+
+function configurationIF(value, endValue){
+	if(!endValue)
+		return (value)?value:0;
+	else
+		return (value)?value:endValue;
+}
+
+function splitByChar(word, char){
+	return word.split(char);
+}
