@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" ng-app ="app" ng-controller="appCtrl as vm">
+<head>
+    <meta charset="UTF-8">
+    <title>Ej de AngularJS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+</head>
+<body>
+
+	<input type="text" ng-model="vm.campotexto">
+	<br />
+	{{ vm.campotexto }} - {{ vm.camposelect }}
+	<br />
+	<select ng-model="vm.camposelect">
+		<option value="uno">1</option>
+		<option value="dos">2</option>
+	</select>
+	<br />
+	<input type="button" value="click"  ng-click"vm.cambiarTxt()">
+
+
+    <script>
+    var app = angular.module("app",[]);
+    app.controller("appCtrl",function(){
+
+    	var vm = this;
+    	vm.camposelect = "uno";
+    	vm.campotexto = "text";
+
+    	vm.cambiarTxt= function(){
+    		vm.campotexto = "Desadollo";
+    	};
+    });
+    </script>
+</div>
+</body>
+</html>

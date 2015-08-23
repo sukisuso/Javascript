@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="es" ng-app ="app" ng-controller="appCtrl">
 <head>
     <meta charset="UTF-8">
     <title>Ej de AngularJS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
 </head>
 <body>
     <h1>Hola {{nombre}}</h1>
@@ -12,6 +13,25 @@
         </form>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+    <div >
+  		<input type="text" ng-model="dato" />
+  		{{dato}}
+  		<input type="button" value="hola" ng-click="dato='hola'" />
+	</div>
+    
+
+    <div ng-init="pensamientos = [];">
+    <h1>Altavoz AngularJS</h1>
+    <p>
+        ¿Qué hay de nuevo?
+        <br />
+        <input type="text" ng-model="nuevoPensamiento" /> 
+        <input type="button" value="Agregar" ng-click="pensamientos.push(nuevoPensamiento); nuevoPensamiento = '';" />
+    </p>
+    <h2>Pensamientos que has tenido</h2>
+    <p ng-repeat="pensamiento in pensamientos" ng-init="paso = $index">
+        Pensaste esto: {{pensamiento}} (Iteración con índice {{paso}})
+    </p>
+</div>
 </body>
 </html>
