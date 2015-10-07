@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+    height: 100%;
+}
+
+h1 {
+    color: navy;
+    margin-left: 60px;
+}
+
+button {
+	margin-left: 20px;
+}
+
+center {
+	text-decoration: overline underline;
+	vertical-align: bottom;
+	margin-bottom: 200px;
+}
