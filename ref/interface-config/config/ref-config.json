@@ -1,0 +1,12 @@
+{
+	"version":"0.1.1 - Interface",
+	"autor":"Jesús Juan Aguilar",
+
+	"time":2055,
+	"files":[	"/README.md", 
+				"/ref.js",
+				"/index.html", 
+				"/css/home.css", 
+				"/config/ref-config.json"
+		  ]
+}

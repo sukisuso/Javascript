@@ -5,6 +5,8 @@
 *	no loaded in the html just use the ref.addFileListener(url); with the url of the resource, Enjoy.
 *
 *	You will need some server like XAMPP to use REB LIB.
+*
+*	*	@version: 0.1
 */
 
 /**
