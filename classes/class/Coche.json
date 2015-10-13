@@ -2,5 +2,14 @@
 	"name":"",
 	"motor":"Honda",
 
-	"year":2015
+	"year":2015,
+	"f:getYear":[
+				"console.log('Coche del año:');",
+				"console.log(this.year);"
+	],
+
+	"f:getFullYear":[
+				"console.log(new Date(this.year, 0 , 1));"
+	]
+
 }
