@@ -1,0 +1,10 @@
+
+
+bootstrap-3.3.5-dist/*
+EdxCurse/Boot/packages/*
+EdxCurse/Boot/.vs/*
+EdxCurse/Boot/Boot.sln
+EdxCurse/Boot/Boot/bin/*
+EdxCurse/Boot/Boot/obj/*
+
+
