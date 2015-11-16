@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ejercicios\navigation.html" />
     <Content Include="ejercicios\musicStore.html" />
     <Content Include="ejercicios\disc.png" />
     <Content Include="packages.config" />
