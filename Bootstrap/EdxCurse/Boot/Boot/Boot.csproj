@@ -66,8 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ejercicios\coolForm.html" />
     <Content Include="ejercicios\acordeon.html" />
     <Content Include="ejercicios\carusel.html" />
+    <Content Include="ejercicios\button.html" />
     <Content Include="ejercicios\navigation.html" />
     <Content Include="ejercicios\musicStore.html" />
     <Content Include="ejercicios\disc.png" />

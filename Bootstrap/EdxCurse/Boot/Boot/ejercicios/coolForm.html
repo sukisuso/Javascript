@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Music Store</title>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h3>Registro</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+
+
+            <div class="container col-md-6">
+                <form role="form" class="form">
+                    <div class="form-group">
+                        <div class="panel-group" id="collapse">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-one">
+                                            Datos Personales
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse-one" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <label for="name" class="control-label col-md-3">Nombre:</label>
+                                            <div class="col-md-6">
+                                                <input type="text" class="form-control" name="name" id="name" placeholder="Name" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <label for="email" class="control-label col-md-3">Email:</label>
+                                            <div class="col-md-6">
+                                                <input type="email" class="form-control" name="email" id="email" placeholder="Email" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <label for="age" class="control-label col-md-3">Edad:</label>
+                                            <div class="col-md-6">
+                                                <input type="number" class="form-control" name="age" id="age" placeholder="Age" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#collapse" href="#collapse-two">
+                                            Datos Bancarios
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapse-two" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <label for="count" class="control-label col-md-3">Numero de cuenta:</label>
+                                            <div class="col-md-6">
+                                                <input type="text" class="form-control" name="count" id="count" placeholder="Numero de cuenta" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <label for="date" class="control-label col-md-3">Caducidad:</label>
+                                            <div class="col-md-6">
+                                                <input type="date" class="form-control" name="date" id="date" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+            <!-- Input Groups Form -->
+            <div class="container col-md-6">
+                <form role="form" class="form-horizontal">
+
+                    <div class="form-group">
+                        <div class="row">
+                            <label for="nick" class="control-label col-md-3">Nick:</label>
+                            <div class="col-md-6 ">
+                                <div class="input-group">
+                                    <span class="input-group-addon">@</span>
+                                    <input type="text" class="form-control" name="nick" id="nick" placeholder="Nick" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <label for="pass" class="control-label col-md-3">Password:</label>
+                            <div class="col-md-6">
+                                <input type="password" class="form-control" name="pass" id="pass" placeholder="Password" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../Scripts/jquery-2.1.4.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+</body>
+</html>
