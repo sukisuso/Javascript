@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Hi!</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Super Mega Encuesta Turismo!</h2>
+         </div>
+    </div>
+
+    <div class="container">
+     <div class="alert alert-success">
+        <div class="span12 pagination-centered">
+            Califica las siguientes preguntas sobre la visita guiada “Valencia esencial ” que has realizado con nosotros según estos criterios:
+        </div>
+     </div>
+    </div> 
+
+    <div class="container">
+        <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <form role="form">
+        <thead>
+            <tr>
+            <div class="row">
+                <div class="form-group">
+                    <label class="col-xs-2"></label>
+                    <label class="col-xs-2">Muy en desacuerdo</label>
+                    <label class="col-xs-2">Desacuerdo</label>
+                    <label class="col-xs-2">Ni fú ni fa, cual fartón sin horchata.</label>
+                    <label class="col-xs-2">De acuerdo</label>
+                    <label class="col-xs-2">Muy de acuerdo</label>
+                </div>
+
+            </div>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <div class="row" style="margin-top: 10px;">
+                <div class="form-group">
+                    <label class="col-xs-2 ">¿Te ha resultado interesante la visita?</label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch11" type="checkbox" onchange="check(1,1);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch12" type="checkbox" onchange="check(1,2);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch13" type="checkbox" onchange="check(1,3);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch14" type="checkbox" onchange="check(1,4);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch15" type="checkbox" onchange="check(1,5);"></label></div></label>
+                </div>
+
+            </div>
+            </tr>
+            <tr>
+            <div class="row" style="margin-top: 10px;">
+                <div class="form-group">
+                    <label class="col-xs-2">¿Te ha resultado amena?</label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch21" type="checkbox" onchange="check(2,1);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch22" type="checkbox" onchange="check(2,2);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch23" type="checkbox" onchange="check(2,3);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch24" type="checkbox" onchange="check(2,4);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch25" type="checkbox" onchange="check(2,5);"></label></div></label>
+                </div>
+
+            </div>
+            </tr>
+            <tr>
+             <div class="row" style="margin-top: 10px;">
+                <div class="form-group">
+                    <label class="col-xs-2">¿La duración ha sido adecuada?</label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch31" type="checkbox" onchange="check(3,1);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch32" type="checkbox" onchange="check(3,2);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch33" type="checkbox" onchange="check(3,3);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch34" type="checkbox" onchange="check(3,4);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch35" type="checkbox" onchange="check(3,5);"></label></div></label>
+                </div>
+
+            </div>
+</tr>
+<tr>
+             <div class="row" style="margin-top: 10px;">
+                <div class="form-group">
+                    <label class="col-xs-2">¿Los guías se han expresado con claridad?</label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch41" type="checkbox" onchange="check(4,1);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch42" type="checkbox" onchange="check(4,2);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch43" type="checkbox" onchange="check(4,3);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch44" type="checkbox" onchange="check(4,4);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch45" type="checkbox" onchange="check(4,5);"></label></div></label>
+                </div>
+
+            </div>
+            </tr>
+            <tr>
+             <div class="row">
+                <div class="form-group" style="margin-top: 10px;">
+                    <label class="col-xs-2">¿Recomendarías esta visita a vuestros huéspedes o amigos?</label>
+                   <label class="col-xs-2"><div class="checkbox"><label><input id="ch51" type="checkbox" onchange="check(5,1);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch52" type="checkbox" onchange="check(5,2);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch53" type="checkbox" onchange="check(5,3);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch54" type="checkbox" onchange="check(5,4);"></label></div></label>
+                    <label class="col-xs-2"><div class="checkbox"><label><input id="ch55" type="checkbox" onchange="check(5,5);"></label></div></label>
+                </div>
+
+            </div>
+            </tr>
+            <button type="button" value="Send" class="btn btn-success" id="submit" style="margin-top: 40px;">Submit</button> 
+
+            <div id="error">
+                
+            </div>
+        </form>
+    </div>
+
+
+        <script src="Scripts/jquery-2.1.4.min.js"></script>
+        <script src="Scripts/bootstrap.min.js"></script>
+         <script src="js.js"></script>
+</body>
+</html>
