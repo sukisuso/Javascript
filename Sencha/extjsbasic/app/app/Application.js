@@ -12,7 +12,8 @@ Ext.define('App.Application', {
 		'App.view.login.Login',
 		'App.view.main.Main',
 		'App.view.box.MBox',
-		'App.view.box.Card'
+		'App.view.box.Card',
+		'App.view.menu.Menu'
 	],
 	
     stores: [

@@ -27,15 +27,19 @@ Ext.define('App.view.main.Main', {
 
     items: [{
         xtype: 'panel',
-        bind: {
-            title: 'Tus Series'
-        },
         region: 'north',
-        html: '<ul><li>This area is commonly used for navigation, for example, using a "tree" component.</li></ul>',
-        width: 250,
-        split: true,
-        
+        html: '<h2>DEV FRAMEWORK</h2>',
+		bbar:[{
+			xtype:'MenuDevBar',
+		}]
     },{
-            xtype:'mbox'
+		region: 'center',
+        xtype:'tabpanel',
+		itemId:'tabpanel-Aplication-dev',
+		items:[
+			{
+				title:'Indice'
+			}
+		]
     }]
 });
