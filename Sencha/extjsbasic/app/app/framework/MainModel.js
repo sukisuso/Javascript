@@ -1,10 +1,10 @@
 /**
  * This class is the view model for the Main view of the application.
  */
-Ext.define('App.view.main.MainModel', {
+Ext.define('App.framework.MainModel', {
     extend: 'Ext.app.ViewModel',
 
-    alias: 'viewmodel.main',
+    alias: 'viewmodel.main-dev',
 
     data: {
         name: 'App'

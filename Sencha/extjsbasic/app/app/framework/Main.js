@@ -5,18 +5,18 @@
  *
  * TODO - Replace this content of this view to suite the needs of your application.
  */
-Ext.define('App.view.main.Main', {
+Ext.define('App.framework.Main', {
     extend: 'Ext.container.Container',
     requires: [
-        'App.view.main.MainController',
-        'App.view.main.MainModel'
+        'App.framework.MainController',
+        'App.framework.MainModel'
     ],
 
-    xtype: 'app-main',
+    xtype: 'app-main-dev',
     plugins: 'viewport',
-    controller: 'main',
+    controller: 'main-dev',
     viewModel: {
-        type: 'main'
+        type: 'main-dev'
     },
 
     layout: {

@@ -5,14 +5,14 @@
  *
  * TODO - Replace this content of this view to suite the needs of your application.
  */
-Ext.define('App.view.main.MainController', {
+Ext.define('App.framework.MainController', {
     extend: 'Ext.app.ViewController',
 
     requires: [
         'Ext.window.MessageBox'
     ],
 
-    alias: 'controller.main',
+    alias: 'controller.main-dev',
 
     onClickButton: function () {
         Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);

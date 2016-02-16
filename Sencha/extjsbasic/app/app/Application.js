@@ -9,11 +9,9 @@ Ext.define('App.Application', {
     name: 'App',
 
 	views: [
-		'App.view.login.Login',
-		'App.view.main.Main',
+		'App.framework.Login','App.framework.Main','App.framework.Menu',
 		'App.view.box.MBox',
-		'App.view.box.Card',
-		'App.view.menu.Menu'
+		'App.view.box.Card'
 	],
 	
     stores: [
@@ -29,6 +27,6 @@ Ext.define('App.Application', {
 			return;
 			}
 			loggedIn = localStorage.getItem("AppLoggedIn");
-			Ext.widget(loggedIn ? 'app-main' : 'login');
+			Ext.widget(loggedIn ? 'app-main-dev' : 'login');
     }
 });

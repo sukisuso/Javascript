@@ -1,5 +1,5 @@
 
-Ext.define('App.view.menu.MenuController', {
+Ext.define('App.framework.MenuController', {
     extend: 'Ext.app.ViewController',
 	alias: 'controller.MenuDevBar',
     requires: [

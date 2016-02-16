@@ -1,7 +1,7 @@
-Ext.define('App.view.menu.Menu', {
+Ext.define('App.framework.Menu', {
     extend: 'Ext.toolbar.Toolbar',
     requires: [
-        'App.view.menu.MenuController'
+        'App.framework.MenuController'
        /* 'Ptd.view.main.MainModel'*/
     ],
     xtype: 'MenuDevBar',
@@ -13,13 +13,14 @@ Ext.define('App.view.menu.Menu', {
 	items: [{
             xtype:'splitbutton',
             text: 'Mantenimiento',
-            iconCls: 'add16',
+            iconCls: 'bookmarks',
             menu: [{
 				text: 'Mantenimiento MBOX',
 				handler:'clickElement',
+				iconCls:'add',
 				menuItemId:'mbox'
 			}]
-        }{
+        },{
             xtype:'splitbutton',
             text: 'Cut',
             iconCls: 'add16',
