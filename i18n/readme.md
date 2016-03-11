@@ -1,8 +1,8 @@
-### i18n Lib v1
-# Jesús Juan Aguilar
+# i18n Lib v1
+### Jesús Juan Aguilar
 
 Save your internationalization String. 
-
+```javascript
 i18n.load({
 	en:{
 		'new':'Add new row',
@@ -15,10 +15,14 @@ i18n.load({
 		'delete':'Eliminar registro'
 	}
 });
+```
 
 Then just load it.
+```javascript
 i18n.$('new') --> 'Add new row'
-
+```
 And change the languaje.
+```javascript
 i18n.loadLang('es');
 i18n.$('new') --> 'AÃ±adir registro'
+```
