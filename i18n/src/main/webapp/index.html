@@ -5,6 +5,11 @@
 		<script src="data/i18n.js"></script>
 	</head>
 	<body>
-		<h2>Hello World i18n!</h2>
+		<div id='titleId'></div>
+		<div id='contentId'></div>
 	</body>
+
+	<script type="text/javascript">
+		i18n.findbyId('titleId').innerHTML= '<h2>'+i18n.$('mainTitle')+'</h2>';
+	</script>
 </html>
