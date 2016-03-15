@@ -10,6 +10,7 @@
 	</body>
 
 	<script type="text/javascript">
-		i18n.findbyId('titleId').innerHTML= '<h2>'+i18n.$('mainTitle')+'</h2>';
+		document.getElementById('titleId').innerHTML= '<h2>'+i18n.$('mainTitle')+'</h2>';
+		document.getElementById('contentId').innerHTML= '<p>'+i18n.$('content')+'</p>';
 	</script>
 </html>

@@ -24,8 +24,3 @@ i18n['loadLang']= function(lang){
 	}
 	i18n['jLang'] = lang;
 };
-
-i18n['findbyId']= function(id){
-	if(id==null){console.error('i18n null id on findIn');}
-	return document.getElementById(id);
-}
