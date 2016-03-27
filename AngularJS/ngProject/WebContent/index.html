@@ -1,8 +1,22 @@
 <!DOCTYPE html>
-<html ng-app="tienda">
-	ng-init="countries = [{locale:'en-US',name:'United States'}, {locale:'en-GB',name:'United Kingdom'}, {locale:'en-FR',name:'France'}]">
+<html ng-app="tienda" ng-init="countries = [{locale:'en-US',name:'United States'}, {locale:'en-GB',name:'United Kingdom'}, {locale:'en-FR',name:'France'}]">
 <head>
 <link rel="stylesheet" href="css/bootstrap.css"></link>
+ 	<style>
+         table, th , td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+         }
+         
+         table tr:nth-child(odd) {
+            background-color: #f2f2f2;
+         }
+         
+         table tr:nth-child(even) {
+            background-color: #ffffff;
+         }
+      </style>
 </head> 
 <body>
 
@@ -32,6 +46,26 @@
 
 	<input type = "checkbox" ng-model = "showHide1">Show Button
 <button ng-show = "showHide1">Click Me!</button>
+</br>
+</br>
+
+ 	<div ng-controller = "studentController">
+      
+         <table>
+            <tr>
+               <th>Name</th>
+               <th>Roll No</th>
+               <th>Percentage</th>
+            </tr>
+         
+            <tr ng-repeat = "student in students">
+               <td>{{ student.Name }}</td>
+               <td>{{ student.RollNo }}</td>
+               <td>{{ student.Percentage }}</td>
+            </tr>
+         </table>
+      </div>
+
 
 	<script src="ng-js/angular.min.js"></script>
 	<script src="ng-js/app.js"></script>
