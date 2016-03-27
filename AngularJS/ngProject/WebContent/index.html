@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="tienda">
+	ng-init="countries = [{locale:'en-US',name:'United States'}, {locale:'en-GB',name:'United Kingdom'}, {locale:'en-FR',name:'France'}]">
+<head>
+<link rel="stylesheet" href="css/bootstrap.css"></link>
+</head>
+<body>
+
+	<p>{{20 + 6}}</p>
+
+	<div ng-controller="loadText">{{TodosDatos}}</div>
+
+	<input type="text" ng-model="name" placeholder="Escribe tu nombre">
+	<h1>
+		Hola <span ng-bind="name"></span>
+	</h1>
+
+
+	<p>List of Countries with locale:</p>
+
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Marks</th>
+		</tr>
+
+		<tr ng-repeat="country in countries | orderBy:'name'">
+			<td>{{ country.name }}</td>
+			<td>{{ country.locale }}</td>
+		</tr>
+	</table>
+
+	<input type = "checkbox" ng-model = "showHide1">Show Button
+<button ng-show = "showHide1">Click Me!</button>
+
+	<script src="ng-js/angular.min.js"></script>
+	<script src="ng-js/app.js"></script>
+</body>
+</html>
