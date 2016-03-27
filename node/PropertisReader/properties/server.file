@@ -1,0 +1,8 @@
+# Properties Server File
+[server]
+listener.port = 8080
+default.msg = Hello to Properties Server Aplication
+start.log = Server running at http://127.0.0.1:
+
+[app]
+grid.rows = 25
