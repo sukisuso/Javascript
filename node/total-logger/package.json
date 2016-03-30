@@ -1,0 +1,10 @@
+{
+  "name": "Total-Logger",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Jesus Juan Aguilar",
+  "description": "Total Logger for Node Projects",
+  "scripts": {
+	"start": "node test/loggerTest.js"
+  }
+}
