@@ -7,13 +7,13 @@ app.controller("appController", function appController($scope){
         {
             nombre : "Israel Parra",
             web : "http://uno-de-piera.com",
-            edad : "32 años",
+            edad : 32,
             profesion : "programador web"
         },
         {
             nombre : "Pepito",
             web : "http://pepito.com",
-            edad : "? años",
+            edad : 24,
             profesion : "vender palotes!"
         }
     ]

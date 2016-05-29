@@ -9,8 +9,9 @@
 <div class="large-12 columns" ng-repeat="(id,usuario) in usuarios | filter: buscador">
 	
         <div class="row">
-       		  <a href="#/info/{{id}}" class="large-6  button"> {{ usuario.nombre}}  </a>
-			  <div class="large-3 columns"><a href="#/edit/{{id}}" class="button expand success">Editar</a></div>
-			  <div class="large-3 columns"> <a href="#/remove/{{id}}" class="button expand alert">Eliminar</a></div>
+        
+       		  <a href="#/info/{{id}}" class="large-6 button "> {{ usuario.nombre}}  </a>
+			  <div class="large-3 columns right"><a href="#/edit/{{id}}" class="button expand success">Editar</a></div>
+			  <div class="large-3 columns right"> <a href="#/remove/{{id}}" class="button expand alert">Eliminar</a></div>
 		</div>
 </div>
