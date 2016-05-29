@@ -1,0 +1,20 @@
+{
+  "name": "webapp",
+  "homepage": "https://github.com/sukisuso/Javascript",
+  "authors": [
+    "Jesus <jesusjuanaguilar@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6"
+  }
+}

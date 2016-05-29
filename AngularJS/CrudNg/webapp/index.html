@@ -1,0 +1,25 @@
+<!DOCTYPE  html>
+<!--ng-app hace referencia al nombre de nuestro modulo-->
+<html lang="es" ng-app="app">
+	<head>
+		<meta charset="UTF-8" />
+		<link  rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/foundation.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/estilos.css"  />
+	</head>
+	<body>
+		<!--añadimos aquí el controlador appController ya que será donde mostremos los usuarios-->
+		<div class="row" ng-controller="appController">
+			<ul class="breadcrumbs">
+				  <li><a href="#">Inicio</a></li>
+				  <li><a href="#/add">Añadir usuario</a></li>
+		    </ul>
+		    <!--aquí es donde cargarán todas las vistas dependiendo de la url-->
+			<div ng-view></div>
+		</div>
+		<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		<script type="text/javascript" src="js/controllers.js"></script>
+	</body>
+</html>
