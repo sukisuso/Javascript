@@ -1,0 +1,22 @@
+{
+  "name": "Login Ng -- prueba Login Angular",
+  "homepage": "https://github.com/sukisuso/Javascript",
+  "authors": [
+    "Jesus <jesusjuanaguilar@gmail.com>"
+  ],
+  "description": "Prueba de Login con Angular",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-route": "^1.5.6",
+    "bootstrap": "^3.3.6"
+  }
+}
