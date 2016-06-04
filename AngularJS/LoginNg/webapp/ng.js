@@ -1,5 +1,5 @@
 
-var app = angular.module("app", ['ngRoute']);
+var app = angular.module("app", ['ngRoute','login']);
  
 app.service('userService', function() {
 	  var user = {};
@@ -22,12 +22,12 @@ app.service('userService', function() {
 
 app.config(function($routeProvider){
 	$routeProvider.when("/", {
-		 templateUrl : "app/login/login.html",
+		 templateUrl : "view/login/login.html",
 		 controller : "loginController"
 	})
 	
 	.when("/main", {
-		 templateUrl : "app/main/main.html",
+		 templateUrl : "view/main/main.html",
 		 controller : "mainController"
 	})
 	

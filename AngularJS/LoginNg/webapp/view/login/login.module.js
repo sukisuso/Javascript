@@ -1,9 +1,9 @@
 /**
  * 
  */
+var login = angular.module("login", ['ngRoute']);
 
-
-app.controller("loginController", function appController($scope, $location, userService){
+login.controller("loginController", function appController($scope, $location, userService){
 
 	$scope.nick = "";
 	$scope.pass = "";
